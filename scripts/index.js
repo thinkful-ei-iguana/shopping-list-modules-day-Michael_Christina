@@ -1,3 +1,4 @@
+import item from './item.js';
 import store from './store.js';
 import shoppingList from './shopping-list.js';
 
