@@ -5,7 +5,7 @@ const validateName = function(name){
 };
 
 const createName = function(name){
-  return { id: cuid(), name: name.val(), checked: false };
+  return { id: cuid(), name: name, checked: false };
 };
 
 export default {
